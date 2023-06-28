@@ -203,7 +203,7 @@ public class SocialMediaController {
             }
 
             if (inputAccount.getUsername().trim().isEmpty()) {
-                ctx.status(400).result("");
+                ctx.status(400);
                 return;
             }
     
